@@ -1,0 +1,62 @@
+body{
+  background-color: #070608;
+}
+.App{
+  background-color: #2a71db;
+  min-height:500px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+#to-do-form input{
+  
+  border-width: 3px; 
+  color: rgb(22, 21, 21);
+  width: 200px;
+  height: 10px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: rgb(14, 22, 17);
+}
+
+
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 1;
+  background-color:rgba(202, 156, 24, 1); 
+  cursor: pointer;
+}
+#to-do-form button:focus{
+  outline: none;
+}
+.add{
+  top:50px;
+  left: 5%;
+}
+.buttondtext{
+ margin-top:10px;
+ margin-left:25%;
+  
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.listText{
+  font-size: 25px;
+  font-weight:600 ;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+color: #fff;
+  letter-spacing: 2px;
+
+}
